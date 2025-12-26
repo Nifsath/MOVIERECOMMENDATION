@@ -33,12 +33,12 @@ The system uses *TF-IDF Vectorization* and *Cosine Similarity* to calculate simi
 
 ## 📂 Project Structure
 
-bash
+```bash
 ├── main.py
 ├── movies.csv
 ├── requirements.txt
 ├── README.md
-
+```
 
 ---
 
@@ -70,22 +70,22 @@ These features are combined to generate meaningful movie recommendations.
 
 ### 1️⃣ Clone the repository
 
-bash
+```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-
+```
 
 ### 2️⃣ Install dependencies
 
-bash
+```bash
 pip install -r requirements.txt
-
+```
 
 ### 3️⃣ Run the FastAPI server
 
-bash
+```bash
 uvicorn main:app --reload
-
+```
 
 ### 4️⃣ Open API Docs
 
